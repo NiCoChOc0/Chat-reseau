@@ -1,0 +1,33 @@
+VERSION CLIENT :
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+ X          X                       X
+ X  P       X  H                    X
+ X          X                       X
+ X  I       X                       X
+ X          X                       X
+ X          X                       X
+ X          X                       X
+ X          X                       X
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+ X          X                       X
+ X    L     X   S                   X
+ X          X                       X
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+
+ Image:
+
+ X=délimitation (noir)
+ L=logo
+
+ Emplacement:
+
+ S=saisie de texte
+ P=pseudo
+ I=information sur le serveur(membres connectés,IP du serveur,...)
+ H=historique des messages
+
+
+ 
+ 
+ 
+ 

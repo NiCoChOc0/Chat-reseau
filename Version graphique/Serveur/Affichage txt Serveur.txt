@@ -1,0 +1,18 @@
+VERSION SERVEUR:
+ 
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+ X              TITRE             X
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+ X                                X
+ X                                X
+ X                                X
+ X                                X
+ X              LABEL             X
+ X                                X
+ X              ENTRY             X
+ X                                X
+ X                                X
+ X                                X
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+ demande du port
+ + écrire quand activé
