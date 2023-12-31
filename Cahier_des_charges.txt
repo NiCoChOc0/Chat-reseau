@@ -1,0 +1,41 @@
+Objectifs: 
+  - Faire un chat fonctionnant avec un nombre de personne supérieur à deux
+  - Garder les messages en mémoire pour y avoir accès à tout moment
+  
+Solutions techniques:
+
+  - Programme python pour le serveur qui receptionnent les messages et qui permet de partager les messages avec les clients et les sauvegarder dans la base de donnée    
+  - Programme python pour les clients qui permet de s'identifié (et créer un login) et d'envoyer les messages au serveur.
+  - Création d'une base de donnée qui permet de stocker les logins et les historiques de messages
+  
+Description de chaque fonctionnalité:
+ 
+ - Pouvoir se connecter à un serveur sans avoir à toucher au code afin que toutes les machines puissent héberger le serveur (page 1 du client)
+  
+ - Un système de login pour pouvoir s'identifier (page 2) 
+   - Comparer le login entré avec la base de donnée
+     - Si le login est valide, le client accède au chat
+     - Si le login est invalide, le client reste sur la page avec un mot d'erreur
+      
+   - Un lien pour pouvoir créer un login (page 3)
+     - 3 champs à remplir : login, password et confirm password
+     - si password et confirm password sont identiques et que le login n'est pas dans la base de donnée, on les ajoutes à la base de donnée et connection au chat
+     - sinon, un mot d'erreur s'affiche
+   
+   - Le chat (page 4)
+    - Affichage des 10 derniers messages (éventuellement adapter le nombre de message à la taille de l'écran) et pouvoir remonter l'historique
+    - Pouvoir écrire des messages au serveur
+      
+  - Une base de donnée hébergé sur le serveur qui permet d'avoir accès à l'historique de messages
+ 
+ Priorités:
+  - Echange entre différents clients via le serveur (format console)
+  - Faire la partie graphique du client
+  - Créer la base de donnée qui hébergera l'historique ainsi que les logins
+
+  Priorité de version:
+   Partie texte:
+    - Version 1 : Envoyer/recevoir un message
+    - Version 2 : Garder la conversation en mémoire
+   Partie graphique:
+    - Version 3 : Version graphique
